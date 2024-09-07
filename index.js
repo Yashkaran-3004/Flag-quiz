@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 const db = new pg.Client({
-  connectionString: process.env.DATABASE_URL || "postgresql://postgres.zdwsqqpndsuzfwdddvxv:[YOUR-PASSWORD]@aws-0-ca-central-1.pooler.supabase.com:6543/postgres",
+  connectionString: process.env.DATABASE_URL || "postgresql://postgres.zdwsqqpndsuzfwdddvxv:[yashcodes123]@aws-0-ca-central-1.pooler.supabase.com:6543/postgres",
   ssl: {
     rejectUnauthorized: false,
 }
